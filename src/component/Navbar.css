@@ -1,0 +1,24 @@
+.navbar {
+  height: 70px;
+  background-color: rgb(196, 36, 36);
+}
+.rt:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+@media (max-width: 988px) {
+  .navbar {
+    height: 100%;
+  }
+  .main-bg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .footer__menu li a {
+    font-size: 10px;  
+  }
+  .banner {
+      height: 250px;
+  }
+}
